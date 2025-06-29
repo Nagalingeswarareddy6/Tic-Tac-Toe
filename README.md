@@ -23,8 +23,11 @@ A responsive **Tic Tac Toe** game built with **HTML**, **Tailwind CSS**, and **J
 tic-tac-toe
 │
 ├── index.html # Main HTML file
+
 ├── style.css # Tailwind + custom styles
+
 ├── script.js # Game logic and interactivity
+
 └── README.md # Project documentation
 
 **Open index.html in your browser to play:**
