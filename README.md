@@ -16,6 +16,7 @@ A responsive **Tic Tac Toe** game built with **HTML**, **Tailwind CSS**, and **J
 - 🎯 Highlights winning combination
 
 **Project photo:**
+
 ![](https://github.com/user-attachments/assets/c086b676-4903-4493-ac82-3fe7e2aecf88)
 
 ## 📁 Project Structure
