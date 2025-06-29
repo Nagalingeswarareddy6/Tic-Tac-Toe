@@ -27,13 +27,16 @@ tic-tac-toe
 ├── script.js # Game logic and interactivity
 └── README.md # Project documentation
 
--->Open index.html in your browser to play:
+**Open index.html in your browser to play:**
 
 start index.html     # On Windows
+
 open index.html      # On macOS
 
-🧠 AI Difficulty Levels
+🧠 **AI Difficulty Levels**
 
 Easy – Random moves
+
 Medium – Mix of smart & random
+
 Hard – Blocks and wins intelligently
