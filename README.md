@@ -15,9 +15,8 @@ A responsive **Tic Tac Toe** game built with **HTML**, **Tailwind CSS**, and **J
 - 🔁 Reset/New Game functionality
 - 🎯 Highlights winning combination
 
-## 🖼️ Demo
-
-> _Insert GitHub Pages or Netlify link if deployed_
+**Project photo:**
+![](https://github.com/user-attachments/assets/c086b676-4903-4493-ac82-3fe7e2aecf88)
 
 ## 📁 Project Structure
 tic-tac-toe
