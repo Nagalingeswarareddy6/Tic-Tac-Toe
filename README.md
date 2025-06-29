@@ -24,6 +24,7 @@ A responsive **Tic Tac Toe** game built with **HTML**, **Tailwind CSS**, and **J
 tic-tac-toe
 
 │
+
 ├── index.html # Main HTML file
 
 ├── style.css # Tailwind + custom styles
