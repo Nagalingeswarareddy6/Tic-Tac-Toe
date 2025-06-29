@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe | Play vs AI or Friend</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4">
+  <div class="max-w-md w-full bg-white rounded-xl shadow-xl overflow-hidden">
+    <!-- Header -->
+    <div class="bg-gradient-to-r from-blue-500 to-blue-600 p-6 text-white">
+      <h1 class="text-3xl font-bold text-center">Tic Tac Toe</h1>
+      <p class="text-center text-blue-100 mt-2">Play against AI or a friend</p>
+    </div>
+
+    <!-- Game Mode Selection -->
+    <div class="flex justify-center space-x-4 p-4 bg-gray-50">
+      <button id="singlePlayerBtn" class="game-mode-btn active px-4 py-2 rounded-lg font-medium transition-colors">
+        <i class="fas fa-robot mr-2"></i> vs AI
+      </button>
+      <button id="twoPlayerBtn" class="game-mode-btn px-4 py-2 rounded-lg font-medium transition-colors">
+        <i class="fas fa-users mr-2"></i> vs Friend
+      </button>
+    </div>
+
+    <!-- Game Status -->
+    <div id="gameStatus" class="text-center py-4 bg-blue-50">
+      <p id="statusText" class="text-xl font-semibold text-blue-700">Player X's turn</p>
+      <div id="playerIcons" class="flex justify-center space-x-8 mt-2">
+        <div id="playerX" class="flex items-center">
+          <i class="fas fa-times text-2xl text-red-500"></i>
+          <span class="ml-2 font-medium">Player X</span>
+        </div>
+        <div id="playerO" class="flex items-center opacity-50">
+          <i class="far fa-circle text-2xl text-blue-500"></i>
+          <span class="ml-2 font-medium">Player O</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Game Board -->
+    <div class="p-4 bg-white">
+      <div class="grid grid-cols-3 gap-3 aspect-square max-w-md mx-auto" id="gameGrid"></div>
+    </div>
+
+    <!-- Controls -->
+    <div class="flex justify-between p-4 bg-gray-50 border-t">
+      <button id="newGameBtn" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors">
+        <i class="fas fa-sync-alt mr-2"></i> New Game
+      </button>
+      <div class="flex items-center">
+        <span class="mr-2 font-medium">Difficulty:</span>
+        <select id="difficulty" class="px-3 py-2 border rounded-lg">
+          <option value="easy">Easy</option>
+          <option value="medium" selected>Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="mt-8 text-center text-gray-500 text-sm">
+    <p>Created with HTML, CSS, and JavaScript</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.cell {
+  transition: all 0.3s ease;
+}
+
+.cell:hover:not(.occupied) {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+}
+
+.winning-cell {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgba(16, 185, 129, 0.1);
+  }
+  50% {
+    background-color: rgba(16, 185, 129, 0.3);
+  }
+  100% {
+    background-color: rgba(16, 185, 129, 0.1);
+  }
+}
+
+.game-mode-btn.active {
+  background-color: #3b82f6;
+  color: white;
+}
