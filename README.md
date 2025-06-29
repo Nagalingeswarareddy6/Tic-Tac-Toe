@@ -20,7 +20,9 @@ A responsive **Tic Tac Toe** game built with **HTML**, **Tailwind CSS**, and **J
 ![](https://github.com/user-attachments/assets/c086b676-4903-4493-ac82-3fe7e2aecf88)
 
 ## 📁 Project Structure
+
 tic-tac-toe
+
 │
 ├── index.html # Main HTML file
 
